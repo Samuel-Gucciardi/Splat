@@ -25,4 +25,8 @@ public abstract class Player extends Entity {
         System.out.println("Encre : " + ink);
         System.out.println("Levée d'encre : " + ink_filling_speed);
     }
+
+    public void refill_ink(){
+        ink += ink_filling_speed;
+    }
 }
