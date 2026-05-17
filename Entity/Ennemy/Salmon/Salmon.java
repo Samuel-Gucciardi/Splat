@@ -1,4 +1,6 @@
-package Entity.Ennemy;
+package Entity.Ennemy.Salmon;
+
+import Entity.Ennemy.Ennemy;
 
 public class Salmon extends Ennemy{
     private int egg;

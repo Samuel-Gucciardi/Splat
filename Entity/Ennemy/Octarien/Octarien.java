@@ -1,4 +1,6 @@
-package Entity.Ennemy;
+package Entity.Ennemy.Octarien;
+
+import Entity.Ennemy.Ennemy;
 
 public class Octarien extends Ennemy{
     private String parchemin;
